@@ -1,0 +1,17 @@
+.projects {
+  width: 90%;
+  margin: auto;
+  min-height: 90vh;
+  text-align: center;
+  flex-wrap: wrap;
+  @include flex(space-between, center, row);
+  h2 {
+    margin: 5rem;
+  }
+}
+
+.nectar,
+.android {
+  height: 400px;
+  flex: 1 1 50rem;
+}
